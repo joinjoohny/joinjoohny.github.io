@@ -3,71 +3,71 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>JoohnyByte Page</title>
+    <title>Indie iOS developer</title>
     <style>
-      :root {
-        --bg: #f9fafb;
-        --text: #111827;
-        --accent: #2b61d1;
-      }
-
       body {
         margin: 0;
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
           sans-serif;
-        background: var(--bg);
-        color: var(--text);
+        background-color: #f9f9f9;
+        color: #222;
         display: flex;
-        flex-direction: column;
         justify-content: center;
         align-items: center;
-        min-height: 100vh;
-        padding: 2rem;
+        height: 100vh;
+        text-align: center;
+        flex-direction: column;
       }
 
       h1 {
         font-size: 2.5rem;
         margin-bottom: 0.5rem;
-        color: var(--accent);
       }
 
       p {
         font-size: 1.2rem;
-        max-width: 600px;
-        text-align: center;
-        line-height: 1.5;
+        color: #555;
         margin-bottom: 2rem;
       }
 
-      a.button {
-        display: inline-block;
-        padding: 0.75rem 1.5rem;
-        border-radius: 0.5rem;
-        background: var(--accent);
-        color: white;
-        text-decoration: none;
-        font-weight: 500;
-        transition: background 0.2s;
+      .links {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        justify-content: center;
+        align-items: center;
       }
 
-      a.button:hover {
-        background: #1e47a3;
+      .links a {
+        text-decoration: none;
+      }
+
+      .appstore-badge {
+        height: 40px;
       }
 
       footer {
-        margin-top: auto;
+        position: absolute;
+        bottom: 20px;
         font-size: 0.9rem;
-        color: #6b7280;
+        color: #777;
       }
     </style>
   </head>
   <body>
-    <h1>🚀 Welcome</h1>
-    <p>
-      This is JoohnyByte's personal page. Check out my projects and get in
-      touch!
-    </p>
+    <h1>⚡ Code · 🎨 Design · 📲 Ship</h1>
+    <p>Indie iOS developer · creating simple, useful, and beautiful apps.</p>
+    <div class="links">
+      <a href="mailto:joinjoohny@gmail.com">Email</a>
+      <a href="https://apps.apple.com/app/" target="_blank">
+        <img
+          class="appstore-badge"
+          src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
+          alt="Download on the App Store"
+        />
+      </a>
+    </div>
 
-    <footer>© 2025 JoohnyByte</footer>
+    <footer>© 2025 joinjoohny</footer>
   </body>
 </html>
